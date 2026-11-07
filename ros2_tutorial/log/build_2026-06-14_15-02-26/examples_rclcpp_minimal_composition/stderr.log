@@ -1,0 +1,25 @@
+[31mCMake Error at CMakeLists.txt:21 (add_library):
+  Target "composition_nodes" links to target "std_msgs::std_msgs" but the
+  target was not found.  Perhaps a find_package() call is missing for an
+  IMPORTED target, or an ALIAS target is missing?
+
+[0m
+[31mCMake Error at CMakeLists.txt:35 (add_executable):
+  Target "composition_publisher" links to target "std_msgs::std_msgs" but the
+  target was not found.  Perhaps a find_package() call is missing for an
+  IMPORTED target, or an ALIAS target is missing?
+
+[0m
+[31mCMake Error at CMakeLists.txt:38 (add_executable):
+  Target "composition_subscriber" links to target "std_msgs::std_msgs" but
+  the target was not found.  Perhaps a find_package() call is missing for an
+  IMPORTED target, or an ALIAS target is missing?
+
+[0m
+[31mCMake Error at CMakeLists.txt:41 (add_executable):
+  Target "composition_composed" links to target "std_msgs::std_msgs" but the
+  target was not found.  Perhaps a find_package() call is missing for an
+  IMPORTED target, or an ALIAS target is missing?
+
+[0m
+[0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m

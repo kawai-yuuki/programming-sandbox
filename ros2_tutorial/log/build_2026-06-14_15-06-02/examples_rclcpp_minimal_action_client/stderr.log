@@ -1,0 +1,26 @@
+[01m[K/home/kawai/programming-sandbox/ros2_tutorial/src/examples/rclcpp/actions/minimal_action_client/not_composable.cpp:18:10:[m[K [01;31m[Kfatal error: [m[Kexample_interfaces/action/fibonacci.hpp: そのようなファイルやディレクトリはありません
+   18 | #include [01;31m[K"example_interfaces/action/fibonacci.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/action_client_not_composable.dir/build.make:76: CMakeFiles/action_client_not_composable.dir/not_composable.cpp.o] エラー 1
+[01m[K/home/kawai/programming-sandbox/ros2_tutorial/src/examples/rclcpp/actions/minimal_action_client/not_composable_with_cancel.cpp:17:10:[m[K [01;31m[Kfatal error: [m[Kexample_interfaces/action/fibonacci.hpp: そのようなファイルやディレクトリはありません
+   17 | #include [01;31m[K"example_interfaces/action/fibonacci.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[1]: *** [CMakeFiles/Makefile2:169: CMakeFiles/action_client_not_composable.dir/all] エラー 2
+gmake[1]: *** 未完了のジョブを待っています....
+gmake[2]: *** [CMakeFiles/action_client_not_composable_with_cancel.dir/build.make:76: CMakeFiles/action_client_not_composable_with_cancel.dir/not_composable_with_cancel.cpp.o] エラー 1
+gmake[1]: *** [CMakeFiles/Makefile2:195: CMakeFiles/action_client_not_composable_with_cancel.dir/all] エラー 2
+[01m[K/home/kawai/programming-sandbox/ros2_tutorial/src/examples/rclcpp/actions/minimal_action_client/not_composable_with_feedback.cpp:19:10:[m[K [01;31m[Kfatal error: [m[Kexample_interfaces/action/fibonacci.hpp: そのようなファイルやディレクトリはありません
+   19 | #include [01;31m[K"example_interfaces/action/fibonacci.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/action_client_not_composable_with_feedback.dir/build.make:76: CMakeFiles/action_client_not_composable_with_feedback.dir/not_composable_with_feedback.cpp.o] エラー 1
+gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/action_client_not_composable_with_feedback.dir/all] エラー 2
+[01m[K/home/kawai/programming-sandbox/ros2_tutorial/src/examples/rclcpp/actions/minimal_action_client/member_functions.cpp:22:10:[m[K [01;31m[Kfatal error: [m[Kexample_interfaces/action/fibonacci.hpp: そのようなファイルやディレクトリはありません
+   22 | #include [01;31m[K"example_interfaces/action/fibonacci.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/action_client_member_functions.dir/build.make:76: CMakeFiles/action_client_member_functions.dir/member_functions.cpp.o] エラー 1
+gmake[1]: *** [CMakeFiles/Makefile2:143: CMakeFiles/action_client_member_functions.dir/all] エラー 2
+gmake: *** [Makefile:146: all] エラー 2

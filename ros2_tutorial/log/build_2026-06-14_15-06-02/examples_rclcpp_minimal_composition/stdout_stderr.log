@@ -1,0 +1,17 @@
+[ 11%] [32mBuilding CXX object CMakeFiles/composition_nodes.dir/src/publisher_node.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/composition_nodes.dir/src/subscriber_node.cpp.o[0m
+In file included from [01m[K/home/kawai/programming-sandbox/ros2_tutorial/src/examples/rclcpp/composition/minimal_composition/src/publisher_node.cpp:17[m[K:
+[01m[K/home/kawai/programming-sandbox/ros2_tutorial/src/examples/rclcpp/composition/minimal_composition/include/minimal_composition/publisher_node.hpp:19:10:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/msg/string.hpp: そのようなファイルやディレクトリはありません
+   19 | #include [01;31m[K"std_msgs/msg/string.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/kawai/programming-sandbox/ros2_tutorial/src/examples/rclcpp/composition/minimal_composition/src/subscriber_node.cpp:15[m[K:
+[01m[K/home/kawai/programming-sandbox/ros2_tutorial/src/examples/rclcpp/composition/minimal_composition/include/minimal_composition/subscriber_node.hpp:19:10:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/msg/string.hpp: そのようなファイルやディレクトリはありません
+   19 | #include [01;31m[K"std_msgs/msg/string.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+compilation terminated.
+gmake[2]: *** [CMakeFiles/composition_nodes.dir/build.make:90: CMakeFiles/composition_nodes.dir/src/subscriber_node.cpp.o] エラー 1
+gmake[2]: *** 未完了のジョブを待っています....
+gmake[2]: *** [CMakeFiles/composition_nodes.dir/build.make:76: CMakeFiles/composition_nodes.dir/src/publisher_node.cpp.o] エラー 1
+gmake[1]: *** [CMakeFiles/Makefile2:143: CMakeFiles/composition_nodes.dir/all] エラー 2
+gmake: *** [Makefile:146: all] エラー 2

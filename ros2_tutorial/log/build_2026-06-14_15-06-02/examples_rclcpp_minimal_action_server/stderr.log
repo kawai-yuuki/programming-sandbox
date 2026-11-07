@@ -1,0 +1,20 @@
+[01m[K/home/kawai/programming-sandbox/ros2_tutorial/src/examples/rclcpp/actions/minimal_action_server/not_composable.cpp:18:10:[m[K [01;31m[Kfatal error: [m[Kexample_interfaces/action/fibonacci.hpp: そのようなファイルやディレクトリはありません
+   18 | #include [01;31m[K"example_interfaces/action/fibonacci.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/action_server_not_composable.dir/build.make:76: CMakeFiles/action_server_not_composable.dir/not_composable.cpp.o] エラー 1
+gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/action_server_not_composable.dir/all] エラー 2
+gmake[1]: *** 未完了のジョブを待っています....
+[01m[K/home/kawai/programming-sandbox/ros2_tutorial/src/examples/rclcpp/actions/minimal_action_server/member_functions.cpp:19:10:[m[K [01;31m[Kfatal error: [m[Kexample_interfaces/action/fibonacci.hpp: そのようなファイルやディレクトリはありません
+   19 | #include [01;31m[K"example_interfaces/action/fibonacci.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/action_server_member_functions.dir/build.make:76: CMakeFiles/action_server_member_functions.dir/member_functions.cpp.o] エラー 1
+gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/action_server_member_functions.dir/all] エラー 2
+[01m[K/home/kawai/programming-sandbox/ros2_tutorial/src/examples/rclcpp/actions/minimal_action_server/single_goal.cpp:20:10:[m[K [01;31m[Kfatal error: [m[Kexample_interfaces/action/fibonacci.hpp: そのようなファイルやディレクトリはありません
+   20 | #include [01;31m[K"example_interfaces/action/fibonacci.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/action_server_single_goal.dir/build.make:76: CMakeFiles/action_server_single_goal.dir/single_goal.cpp.o] エラー 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/action_server_single_goal.dir/all] エラー 2
+gmake: *** [Makefile:146: all] エラー 2

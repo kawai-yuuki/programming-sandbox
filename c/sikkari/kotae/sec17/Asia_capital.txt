@@ -1,0 +1,7 @@
+Japan Tokyo 1400 Asia
+India NewDelhi 1380 Asia
+China Beijing 1390 Asia
+SouthKorea Seoul 520 Asia
+Indonesia Jakarta 270 Asia
+Turkey Ankara 840 Asia
+SaudiArabia Riyadh 340 Asia

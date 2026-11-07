@@ -1,0 +1,10 @@
+[0.046s] Invoking command in '/home/kawai/programming-sandbox/ros2_tutorial/build/examples_rclcpp_minimal_client': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kawai/ros2_ws/install/xl430_diffdrive:/home/kawai/ros2_ws/install/p9n_bringup:/home/kawai/ros2_ws/install/my_py_pkg:/home/kawai/ros2_ws/install/mirror_eval_tools:/home/kawai/ros2_ws/install/measure_reflect_distance:/opt/ros/humble /usr/bin/cmake --build /home/kawai/programming-sandbox/ros2_tutorial/build/examples_rclcpp_minimal_client -- -j6 -l6
+[0.188s] [ 50%] [32mBuilding CXX object CMakeFiles/client_main.dir/main.cpp.o[0m
+[0.440s] [01m[K/home/kawai/programming-sandbox/ros2_tutorial/src/examples/rclcpp/services/minimal_client/main.cpp:19:10:[m[K [01;31m[Kfatal error: [m[Kexample_interfaces/srv/add_two_ints.hpp: そのようなファイルやディレクトリはありません
+[0.440s]    19 | #include [01;31m[K"example_interfaces/srv/add_two_ints.hpp"[m[K
+[0.440s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.440s] compilation terminated.
+[0.452s] gmake[2]: *** [CMakeFiles/client_main.dir/build.make:76: CMakeFiles/client_main.dir/main.cpp.o] エラー 1
+[0.452s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/client_main.dir/all] エラー 2
+[0.452s] gmake: *** [Makefile:146: all] エラー 2
+[0.456s] Invoked command in '/home/kawai/programming-sandbox/ros2_tutorial/build/examples_rclcpp_minimal_client' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kawai/ros2_ws/install/xl430_diffdrive:/home/kawai/ros2_ws/install/p9n_bringup:/home/kawai/ros2_ws/install/my_py_pkg:/home/kawai/ros2_ws/install/mirror_eval_tools:/home/kawai/ros2_ws/install/measure_reflect_distance:/opt/ros/humble /usr/bin/cmake --build /home/kawai/programming-sandbox/ros2_tutorial/build/examples_rclcpp_minimal_client -- -j6 -l6

@@ -1,0 +1,24 @@
+[0.032s] Invoking command in '/home/kawai/programming-sandbox/ros2_tutorial/build/examples_rclcpp_minimal_action_server': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kawai/ros2_ws/install/xl430_diffdrive:/home/kawai/ros2_ws/install/p9n_bringup:/home/kawai/ros2_ws/install/my_py_pkg:/home/kawai/ros2_ws/install/mirror_eval_tools:/home/kawai/ros2_ws/install/measure_reflect_distance:/opt/ros/humble /usr/bin/cmake --build /home/kawai/programming-sandbox/ros2_tutorial/build/examples_rclcpp_minimal_action_server -- -j6 -l6
+[0.192s] [ 16%] [32mBuilding CXX object CMakeFiles/action_server_member_functions.dir/member_functions.cpp.o[0m
+[0.199s] [ 33%] [32mBuilding CXX object CMakeFiles/action_server_not_composable.dir/not_composable.cpp.o[0m
+[0.254s] [ 50%] [32mBuilding CXX object CMakeFiles/action_server_single_goal.dir/single_goal.cpp.o[0m
+[0.576s] [01m[K/home/kawai/programming-sandbox/ros2_tutorial/src/examples/rclcpp/actions/minimal_action_server/not_composable.cpp:18:10:[m[K [01;31m[Kfatal error: [m[Kexample_interfaces/action/fibonacci.hpp: そのようなファイルやディレクトリはありません
+[0.576s]    18 | #include [01;31m[K"example_interfaces/action/fibonacci.hpp"[m[K
+[0.576s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.576s] compilation terminated.
+[0.581s] gmake[2]: *** [CMakeFiles/action_server_not_composable.dir/build.make:76: CMakeFiles/action_server_not_composable.dir/not_composable.cpp.o] エラー 1
+[0.581s] gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/action_server_not_composable.dir/all] エラー 2
+[0.581s] gmake[1]: *** 未完了のジョブを待っています....
+[0.650s] [01m[K/home/kawai/programming-sandbox/ros2_tutorial/src/examples/rclcpp/actions/minimal_action_server/member_functions.cpp:19:10:[m[K [01;31m[Kfatal error: [m[Kexample_interfaces/action/fibonacci.hpp: そのようなファイルやディレクトリはありません
+[0.650s]    19 | #include [01;31m[K"example_interfaces/action/fibonacci.hpp"[m[K
+[0.650s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.650s] compilation terminated.
+[0.654s] gmake[2]: *** [CMakeFiles/action_server_member_functions.dir/build.make:76: CMakeFiles/action_server_member_functions.dir/member_functions.cpp.o] エラー 1
+[0.654s] gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/action_server_member_functions.dir/all] エラー 2
+[0.707s] [01m[K/home/kawai/programming-sandbox/ros2_tutorial/src/examples/rclcpp/actions/minimal_action_server/single_goal.cpp:20:10:[m[K [01;31m[Kfatal error: [m[Kexample_interfaces/action/fibonacci.hpp: そのようなファイルやディレクトリはありません
+[0.707s]    20 | #include [01;31m[K"example_interfaces/action/fibonacci.hpp"[m[K
+[0.707s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.708s] compilation terminated.
+[0.713s] gmake[2]: *** [CMakeFiles/action_server_single_goal.dir/build.make:76: CMakeFiles/action_server_single_goal.dir/single_goal.cpp.o] エラー 1
+[0.713s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/action_server_single_goal.dir/all] エラー 2
+[0.713s] gmake: *** [Makefile:146: all] エラー 2

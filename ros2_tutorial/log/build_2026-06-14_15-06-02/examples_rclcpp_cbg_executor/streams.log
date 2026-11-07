@@ -1,0 +1,44 @@
+[0.039s] Invoking command in '/home/kawai/programming-sandbox/ros2_tutorial/build/examples_rclcpp_cbg_executor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kawai/ros2_ws/install/xl430_diffdrive:/home/kawai/ros2_ws/install/p9n_bringup:/home/kawai/ros2_ws/install/my_py_pkg:/home/kawai/ros2_ws/install/mirror_eval_tools:/home/kawai/ros2_ws/install/measure_reflect_distance:/opt/ros/humble /usr/bin/cmake /home/kawai/programming-sandbox/ros2_tutorial/src/examples/rclcpp/executors/cbg_executor -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kawai/programming-sandbox/ros2_tutorial/install/examples_rclcpp_cbg_executor
+[0.065s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.437s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.449s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[0.511s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.516s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.527s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.545s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.566s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.618s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.620s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.645s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.708s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.831s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.833s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.834s] -- Configured cppcheck include dirs: /home/kawai/programming-sandbox/ros2_tutorial/src/examples/rclcpp/executors/cbg_executor/include
+[0.834s] -- Configured cppcheck exclude dirs and/or files: 
+[0.836s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.836s] -- Configured cpplint exclude dirs and/or files: 
+[0.836s] -- Added test 'lint_cmake' to check CMake code style
+[0.838s] -- Added test 'uncrustify' to check C / C++ code style
+[0.838s] -- Configured uncrustify additional arguments: 
+[0.839s] -- Added test 'xmllint' to check XML markup files
+[0.840s] -- Configuring done
+[0.845s] [31mCMake Error at CMakeLists.txt:18 (add_executable):
+[0.845s]   Target "ping" links to target "std_msgs::std_msgs" but the target was not
+[0.845s]   found.  Perhaps a find_package() call is missing for an IMPORTED target, or
+[0.845s]   an ALIAS target is missing?
+[0.845s] 
+[0.845s] [0m
+[0.845s] [31mCMake Error at CMakeLists.txt:26 (add_executable):
+[0.846s]   Target "pong" links to target "std_msgs::std_msgs" but the target was not
+[0.846s]   found.  Perhaps a find_package() call is missing for an IMPORTED target, or
+[0.846s]   an ALIAS target is missing?
+[0.846s] 
+[0.846s] [0m
+[0.846s] [31mCMake Error at CMakeLists.txt:34 (add_executable):
+[0.846s]   Target "ping_pong" links to target "std_msgs::std_msgs" but the target was
+[0.846s]   not found.  Perhaps a find_package() call is missing for an IMPORTED
+[0.847s]   target, or an ALIAS target is missing?
+[0.847s] 
+[0.847s] [0m
+[0.860s] -- Generating done
+[0.862s] [0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m

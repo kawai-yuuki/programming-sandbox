@@ -1,0 +1,18 @@
+[0.057s] Invoking command in '/home/kawai/programming-sandbox/ros2_tutorial/build/examples_rclcpp_minimal_composition': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kawai/ros2_ws/install/xl430_diffdrive:/home/kawai/ros2_ws/install/p9n_bringup:/home/kawai/ros2_ws/install/my_py_pkg:/home/kawai/ros2_ws/install/mirror_eval_tools:/home/kawai/ros2_ws/install/measure_reflect_distance:/opt/ros/humble /usr/bin/cmake --build /home/kawai/programming-sandbox/ros2_tutorial/build/examples_rclcpp_minimal_composition -- -j6 -l6
+[0.447s] [ 11%] [32mBuilding CXX object CMakeFiles/composition_nodes.dir/src/subscriber_node.cpp.o[0m
+[0.447s] [ 22%] [32mBuilding CXX object CMakeFiles/composition_nodes.dir/src/publisher_node.cpp.o[0m
+[0.979s] In file included from [01m[K/home/kawai/programming-sandbox/ros2_tutorial/src/examples/rclcpp/composition/minimal_composition/src/publisher_node.cpp:17[m[K:
+[0.979s] [01m[K/home/kawai/programming-sandbox/ros2_tutorial/src/examples/rclcpp/composition/minimal_composition/include/minimal_composition/publisher_node.hpp:19:10:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/msg/string.hpp: そのようなファイルやディレクトリはありません
+[0.979s]    19 | #include [01;31m[K"std_msgs/msg/string.hpp"[m[K
+[0.979s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.980s] compilation terminated.
+[0.983s] In file included from [01m[K/home/kawai/programming-sandbox/ros2_tutorial/src/examples/rclcpp/composition/minimal_composition/src/subscriber_node.cpp:15[m[K:
+[0.983s] [01m[K/home/kawai/programming-sandbox/ros2_tutorial/src/examples/rclcpp/composition/minimal_composition/include/minimal_composition/subscriber_node.hpp:19:10:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/msg/string.hpp: そのようなファイルやディレクトリはありません
+[0.983s]    19 | #include [01;31m[K"std_msgs/msg/string.hpp"[m[K
+[0.983s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.983s] compilation terminated.
+[0.983s] gmake[2]: *** [CMakeFiles/composition_nodes.dir/build.make:76: CMakeFiles/composition_nodes.dir/src/publisher_node.cpp.o] エラー 1
+[0.984s] gmake[2]: *** 未完了のジョブを待っています....
+[0.987s] gmake[2]: *** [CMakeFiles/composition_nodes.dir/build.make:90: CMakeFiles/composition_nodes.dir/src/subscriber_node.cpp.o] エラー 1
+[0.988s] gmake[1]: *** [CMakeFiles/Makefile2:143: CMakeFiles/composition_nodes.dir/all] エラー 2
+[0.988s] gmake: *** [Makefile:146: all] エラー 2

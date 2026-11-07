@@ -43,3 +43,6 @@ c/kuruC/practic20/output
 
 c/kuruC/.vscode/browse.vc.db-shm
 c/kuruC/.vscode/browse.vc.db-wal
+
+.vscode/
+output/

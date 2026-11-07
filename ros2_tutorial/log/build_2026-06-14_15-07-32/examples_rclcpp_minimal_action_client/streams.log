@@ -1,0 +1,31 @@
+[0.034s] Invoking command in '/home/kawai/programming-sandbox/ros2_tutorial/build/examples_rclcpp_minimal_action_client': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kawai/ros2_ws/install/xl430_diffdrive:/home/kawai/ros2_ws/install/p9n_bringup:/home/kawai/ros2_ws/install/my_py_pkg:/home/kawai/ros2_ws/install/mirror_eval_tools:/home/kawai/ros2_ws/install/measure_reflect_distance:/opt/ros/humble /usr/bin/cmake --build /home/kawai/programming-sandbox/ros2_tutorial/build/examples_rclcpp_minimal_action_client -- -j6 -l6
+[0.197s] [ 12%] [32mBuilding CXX object CMakeFiles/action_client_member_functions.dir/member_functions.cpp.o[0m
+[0.197s] [ 25%] [32mBuilding CXX object CMakeFiles/action_client_not_composable_with_cancel.dir/not_composable_with_cancel.cpp.o[0m
+[0.214s] [ 37%] [32mBuilding CXX object CMakeFiles/action_client_not_composable_with_feedback.dir/not_composable_with_feedback.cpp.o[0m
+[0.216s] [ 50%] [32mBuilding CXX object CMakeFiles/action_client_not_composable.dir/not_composable.cpp.o[0m
+[0.346s] [01m[K/home/kawai/programming-sandbox/ros2_tutorial/src/examples/rclcpp/actions/minimal_action_client/not_composable_with_cancel.cpp:17:10:[m[K [01;31m[Kfatal error: [m[Kexample_interfaces/action/fibonacci.hpp: そのようなファイルやディレクトリはありません
+[0.346s]    17 | #include [01;31m[K"example_interfaces/action/fibonacci.hpp"[m[K
+[0.347s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.347s] compilation terminated.
+[0.352s] gmake[2]: *** [CMakeFiles/action_client_not_composable_with_cancel.dir/build.make:76: CMakeFiles/action_client_not_composable_with_cancel.dir/not_composable_with_cancel.cpp.o] エラー 1
+[0.352s] gmake[1]: *** [CMakeFiles/Makefile2:195: CMakeFiles/action_client_not_composable_with_cancel.dir/all] エラー 2
+[0.352s] gmake[1]: *** 未完了のジョブを待っています....
+[0.405s] [01m[K/home/kawai/programming-sandbox/ros2_tutorial/src/examples/rclcpp/actions/minimal_action_client/not_composable.cpp:18:10:[m[K [01;31m[Kfatal error: [m[Kexample_interfaces/action/fibonacci.hpp: そのようなファイルやディレクトリはありません
+[0.405s]    18 | #include [01;31m[K"example_interfaces/action/fibonacci.hpp"[m[K
+[0.405s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.405s] compilation terminated.
+[0.407s] gmake[2]: *** [CMakeFiles/action_client_not_composable.dir/build.make:76: CMakeFiles/action_client_not_composable.dir/not_composable.cpp.o] エラー 1
+[0.407s] gmake[1]: *** [CMakeFiles/Makefile2:169: CMakeFiles/action_client_not_composable.dir/all] エラー 2
+[0.428s] [01m[K/home/kawai/programming-sandbox/ros2_tutorial/src/examples/rclcpp/actions/minimal_action_client/not_composable_with_feedback.cpp:19:10:[m[K [01;31m[Kfatal error: [m[Kexample_interfaces/action/fibonacci.hpp: そのようなファイルやディレクトリはありません
+[0.428s]    19 | #include [01;31m[K"example_interfaces/action/fibonacci.hpp"[m[K
+[0.428s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.428s] compilation terminated.
+[0.432s] gmake[2]: *** [CMakeFiles/action_client_not_composable_with_feedback.dir/build.make:76: CMakeFiles/action_client_not_composable_with_feedback.dir/not_composable_with_feedback.cpp.o] エラー 1
+[0.432s] gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/action_client_not_composable_with_feedback.dir/all] エラー 2
+[0.700s] [01m[K/home/kawai/programming-sandbox/ros2_tutorial/src/examples/rclcpp/actions/minimal_action_client/member_functions.cpp:22:10:[m[K [01;31m[Kfatal error: [m[Kexample_interfaces/action/fibonacci.hpp: そのようなファイルやディレクトリはありません
+[0.700s]    22 | #include [01;31m[K"example_interfaces/action/fibonacci.hpp"[m[K
+[0.700s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.700s] compilation terminated.
+[0.700s] gmake[2]: *** [CMakeFiles/action_client_member_functions.dir/build.make:76: CMakeFiles/action_client_member_functions.dir/member_functions.cpp.o] エラー 1
+[0.700s] gmake[1]: *** [CMakeFiles/Makefile2:143: CMakeFiles/action_client_member_functions.dir/all] エラー 2
+[0.700s] gmake: *** [Makefile:146: all] エラー 2

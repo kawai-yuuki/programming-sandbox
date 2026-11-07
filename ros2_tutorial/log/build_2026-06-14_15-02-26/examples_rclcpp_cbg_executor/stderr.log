@@ -1,0 +1,19 @@
+[31mCMake Error at CMakeLists.txt:18 (add_executable):
+  Target "ping" links to target "std_msgs::std_msgs" but the target was not
+  found.  Perhaps a find_package() call is missing for an IMPORTED target, or
+  an ALIAS target is missing?
+
+[0m
+[31mCMake Error at CMakeLists.txt:26 (add_executable):
+  Target "pong" links to target "std_msgs::std_msgs" but the target was not
+  found.  Perhaps a find_package() call is missing for an IMPORTED target, or
+  an ALIAS target is missing?
+
+[0m
+[31mCMake Error at CMakeLists.txt:34 (add_executable):
+  Target "ping_pong" links to target "std_msgs::std_msgs" but the target was
+  not found.  Perhaps a find_package() call is missing for an IMPORTED
+  target, or an ALIAS target is missing?
+
+[0m
+[0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m

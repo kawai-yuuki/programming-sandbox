@@ -1,0 +1,53 @@
+[0.039s] Invoking command in '/home/kawai/programming-sandbox/ros2_tutorial/build/examples_rclcpp_async_client': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kawai/ros2_ws/install/xl430_diffdrive:/home/kawai/ros2_ws/install/p9n_bringup:/home/kawai/ros2_ws/install/my_py_pkg:/home/kawai/ros2_ws/install/mirror_eval_tools:/home/kawai/ros2_ws/install/measure_reflect_distance:/opt/ros/humble /usr/bin/cmake /home/kawai/programming-sandbox/ros2_tutorial/src/examples/rclcpp/services/async_client -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kawai/programming-sandbox/ros2_tutorial/install/examples_rclcpp_async_client
+[0.289s] -- The C compiler identification is GNU 11.4.0
+[0.489s] -- The CXX compiler identification is GNU 11.4.0
+[0.505s] -- Detecting C compiler ABI info
+[0.615s] -- Detecting C compiler ABI info - done
+[0.624s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.625s] -- Detecting C compile features
+[0.630s] -- Detecting C compile features - done
+[0.635s] -- Detecting CXX compiler ABI info
+[0.772s] -- Detecting CXX compiler ABI info - done
+[0.784s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.785s] -- Detecting CXX compile features
+[0.785s] -- Detecting CXX compile features - done
+[0.797s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.114s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.268s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.349s] -- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)
+[1.449s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.464s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.489s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.515s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.555s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.668s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[1.747s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.755s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[1.798s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.818s] -- Looking for pthread.h
+[1.937s] -- Looking for pthread.h - found
+[1.938s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.066s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.066s] -- Found Threads: TRUE  
+[2.166s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.355s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.356s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.359s] -- Configured cppcheck include dirs: 
+[2.360s] -- Configured cppcheck exclude dirs and/or files: 
+[2.360s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.361s] -- Configured cpplint exclude dirs and/or files: 
+[2.361s] -- Added test 'lint_cmake' to check CMake code style
+[2.363s] -- Added test 'uncrustify' to check C / C++ code style
+[2.364s] -- Configured uncrustify additional arguments: 
+[2.367s] -- Added test 'xmllint' to check XML markup files
+[2.372s] -- Configuring done
+[2.375s] [31mCMake Error at CMakeLists.txt:18 (add_executable):
+[2.375s]   Target "client_main" links to target
+[2.375s]   "example_interfaces::example_interfaces" but the target was not found.
+[2.375s]   Perhaps a find_package() call is missing for an IMPORTED target, or an
+[2.376s]   ALIAS target is missing?
+[2.376s] 
+[2.376s] [0m
+[2.384s] -- Generating done
+[2.385s] [0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
+[2.425s] Invoked command in '/home/kawai/programming-sandbox/ros2_tutorial/build/examples_rclcpp_async_client' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kawai/ros2_ws/install/xl430_diffdrive:/home/kawai/ros2_ws/install/p9n_bringup:/home/kawai/ros2_ws/install/my_py_pkg:/home/kawai/ros2_ws/install/mirror_eval_tools:/home/kawai/ros2_ws/install/measure_reflect_distance:/opt/ros/humble /usr/bin/cmake /home/kawai/programming-sandbox/ros2_tutorial/src/examples/rclcpp/services/async_client -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kawai/programming-sandbox/ros2_tutorial/install/examples_rclcpp_async_client

@@ -1,0 +1,74 @@
+[0.029s] Invoking command in '/home/kawai/programming-sandbox/ros2_tutorial/build/examples_rclcpp_minimal_action_client': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kawai/ros2_ws/install/xl430_diffdrive:/home/kawai/ros2_ws/install/p9n_bringup:/home/kawai/ros2_ws/install/my_py_pkg:/home/kawai/ros2_ws/install/mirror_eval_tools:/home/kawai/ros2_ws/install/measure_reflect_distance:/opt/ros/humble /usr/bin/cmake /home/kawai/programming-sandbox/ros2_tutorial/src/examples/rclcpp/actions/minimal_action_client -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kawai/programming-sandbox/ros2_tutorial/install/examples_rclcpp_minimal_action_client
+[0.270s] -- The C compiler identification is GNU 11.4.0
+[0.471s] -- The CXX compiler identification is GNU 11.4.0
+[0.487s] -- Detecting C compiler ABI info
+[0.600s] -- Detecting C compiler ABI info - done
+[0.620s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.620s] -- Detecting C compile features
+[0.620s] -- Detecting C compile features - done
+[0.623s] -- Detecting CXX compiler ABI info
+[0.751s] -- Detecting CXX compiler ABI info - done
+[0.764s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.764s] -- Detecting CXX compile features
+[0.765s] -- Detecting CXX compile features - done
+[0.778s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.104s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.245s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.331s] -- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)
+[1.431s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.445s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.473s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.502s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.537s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.649s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[1.728s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.737s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[1.780s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.799s] -- Looking for pthread.h
+[1.927s] -- Looking for pthread.h - found
+[1.928s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.055s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.055s] -- Found Threads: TRUE  
+[2.165s] -- Found rclcpp_action: 16.0.19 (/opt/ros/humble/share/rclcpp_action/cmake)
+[2.185s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.370s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.374s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.374s] -- Configured cppcheck include dirs: 
+[2.374s] -- Configured cppcheck exclude dirs and/or files: 
+[2.374s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.374s] -- Configured cpplint exclude dirs and/or files: 
+[2.375s] -- Added test 'lint_cmake' to check CMake code style
+[2.376s] -- Added test 'uncrustify' to check C / C++ code style
+[2.376s] -- Configured uncrustify additional arguments: 
+[2.379s] -- Added test 'xmllint' to check XML markup files
+[2.385s] -- Configuring done
+[2.403s] [31mCMake Error at CMakeLists.txt:19 (add_executable):
+[2.403s]   Target "action_client_member_functions" links to target
+[2.403s]   "example_interfaces::example_interfaces" but the target was not found.
+[2.403s]   Perhaps a find_package() call is missing for an IMPORTED target, or an
+[2.403s]   ALIAS target is missing?
+[2.403s] 
+[2.403s] [0m
+[2.403s] [31mCMake Error at CMakeLists.txt:25 (add_executable):
+[2.404s]   Target "action_client_not_composable" links to target
+[2.404s]   "example_interfaces::example_interfaces" but the target was not found.
+[2.405s]   Perhaps a find_package() call is missing for an IMPORTED target, or an
+[2.405s]   ALIAS target is missing?
+[2.405s] 
+[2.405s] [0m
+[2.405s] [31mCMake Error at CMakeLists.txt:31 (add_executable):
+[2.405s]   Target "action_client_not_composable_with_cancel" links to target
+[2.406s]   "example_interfaces::example_interfaces" but the target was not found.
+[2.406s]   Perhaps a find_package() call is missing for an IMPORTED target, or an
+[2.406s]   ALIAS target is missing?
+[2.406s] 
+[2.406s] [0m
+[2.406s] [31mCMake Error at CMakeLists.txt:37 (add_executable):
+[2.406s]   Target "action_client_not_composable_with_feedback" links to target
+[2.406s]   "example_interfaces::example_interfaces" but the target was not found.
+[2.406s]   Perhaps a find_package() call is missing for an IMPORTED target, or an
+[2.407s]   ALIAS target is missing?
+[2.407s] 
+[2.407s] [0m
+[2.412s] -- Generating done
+[2.415s] [0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
